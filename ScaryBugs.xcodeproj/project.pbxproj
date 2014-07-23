@@ -22,6 +22,8 @@
 		59F65C00197FACB800F4CC20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F65BDF197FACB800F4CC20 /* UIKit.framework */; };
 		59F65C08197FACB800F4CC20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59F65C06197FACB800F4CC20 /* InfoPlist.strings */; };
 		59F65C0A197FACB800F4CC20 /* ScaryBugsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F65C09197FACB800F4CC20 /* ScaryBugsTests.m */; };
+		59F65C17197FAD5500F4CC20 /* RWTScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F65C16197FAD5500F4CC20 /* RWTScaryBugData.m */; };
+		59F65C1A197FB01600F4CC20 /* RWTScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F65C19197FB01600F4CC20 /* RWTScaryBugDoc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		59F65C05197FACB800F4CC20 /* ScaryBugsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScaryBugsTests-Info.plist"; sourceTree = "<group>"; };
 		59F65C07197FACB800F4CC20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59F65C09197FACB800F4CC20 /* ScaryBugsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryBugsTests.m; sourceTree = "<group>"; };
+		59F65C15197FAD5500F4CC20 /* RWTScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTScaryBugData.h; sourceTree = "<group>"; };
+		59F65C16197FAD5500F4CC20 /* RWTScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTScaryBugData.m; sourceTree = "<group>"; };
+		59F65C18197FB01600F4CC20 /* RWTScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTScaryBugDoc.h; sourceTree = "<group>"; };
+		59F65C19197FB01600F4CC20 /* RWTScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTScaryBugDoc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +121,8 @@
 		59F65BE1197FACB800F4CC20 /* ScaryBugs */ = {
 			isa = PBXGroup;
 			children = (
-				59F65BEA197FACB800F4CC20 /* RWTAppDelegate.h */,
-				59F65BEB197FACB800F4CC20 /* RWTAppDelegate.m */,
-				59F65BED197FACB800F4CC20 /* Main.storyboard */,
-				59F65BF0197FACB800F4CC20 /* RWTMasterViewController.h */,
-				59F65BF1197FACB800F4CC20 /* RWTMasterViewController.m */,
-				59F65BF3197FACB800F4CC20 /* RWTDetailViewController.h */,
-				59F65BF4197FACB800F4CC20 /* RWTDetailViewController.m */,
+				59F65C14197FAD2B00F4CC20 /* Model */,
+				59F65C13197FAD1600F4CC20 /* GUI */,
 				59F65BF6197FACB800F4CC20 /* Images.xcassets */,
 				59F65BE2197FACB800F4CC20 /* Supporting Files */,
 			);
@@ -155,6 +156,31 @@
 				59F65C06197FACB800F4CC20 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59F65C13197FAD1600F4CC20 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				59F65BEA197FACB800F4CC20 /* RWTAppDelegate.h */,
+				59F65BEB197FACB800F4CC20 /* RWTAppDelegate.m */,
+				59F65BED197FACB800F4CC20 /* Main.storyboard */,
+				59F65BF0197FACB800F4CC20 /* RWTMasterViewController.h */,
+				59F65BF1197FACB800F4CC20 /* RWTMasterViewController.m */,
+				59F65BF3197FACB800F4CC20 /* RWTDetailViewController.h */,
+				59F65BF4197FACB800F4CC20 /* RWTDetailViewController.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		59F65C14197FAD2B00F4CC20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59F65C15197FAD5500F4CC20 /* RWTScaryBugData.h */,
+				59F65C16197FAD5500F4CC20 /* RWTScaryBugData.m */,
+				59F65C18197FB01600F4CC20 /* RWTScaryBugDoc.h */,
+				59F65C19197FB01600F4CC20 /* RWTScaryBugDoc.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F65C17197FAD5500F4CC20 /* RWTScaryBugData.m in Sources */,
 				59F65BEC197FACB800F4CC20 /* RWTAppDelegate.m in Sources */,
+				59F65C1A197FB01600F4CC20 /* RWTScaryBugDoc.m in Sources */,
 				59F65BE8197FACB800F4CC20 /* main.m in Sources */,
 				59F65BF2197FACB800F4CC20 /* RWTMasterViewController.m in Sources */,
 				59F65BF5197FACB800F4CC20 /* RWTDetailViewController.m in Sources */,
