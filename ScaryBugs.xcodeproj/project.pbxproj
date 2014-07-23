@@ -24,6 +24,15 @@
 		59F65C0A197FACB800F4CC20 /* ScaryBugsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F65C09197FACB800F4CC20 /* ScaryBugsTests.m */; };
 		59F65C17197FAD5500F4CC20 /* RWTScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F65C16197FAD5500F4CC20 /* RWTScaryBugData.m */; };
 		59F65C1A197FB01600F4CC20 /* RWTScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F65C19197FB01600F4CC20 /* RWTScaryBugDoc.m */; };
+		59F65C24197FB3F500F4CC20 /* attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = 59F65C1B197FB3F500F4CC20 /* attribution.txt */; };
+		59F65C25197FB3F500F4CC20 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59F65C1C197FB3F500F4CC20 /* centipede.jpg */; };
+		59F65C26197FB3F500F4CC20 /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59F65C1D197FB3F500F4CC20 /* centipedeThumb.jpg */; };
+		59F65C27197FB3F500F4CC20 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59F65C1E197FB3F500F4CC20 /* ladybug.jpg */; };
+		59F65C28197FB3F500F4CC20 /* ladybugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59F65C1F197FB3F500F4CC20 /* ladybugThumb.jpg */; };
+		59F65C29197FB3F500F4CC20 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59F65C20197FB3F500F4CC20 /* potatoBug.jpg */; };
+		59F65C2A197FB3F500F4CC20 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59F65C21197FB3F500F4CC20 /* potatoBugThumb.jpg */; };
+		59F65C2B197FB3F500F4CC20 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59F65C22197FB3F500F4CC20 /* wolfSpider.jpg */; };
+		59F65C2C197FB3F500F4CC20 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59F65C23197FB3F500F4CC20 /* wolfSpiderThumb.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +71,15 @@
 		59F65C16197FAD5500F4CC20 /* RWTScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTScaryBugData.m; sourceTree = "<group>"; };
 		59F65C18197FB01600F4CC20 /* RWTScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTScaryBugDoc.h; sourceTree = "<group>"; };
 		59F65C19197FB01600F4CC20 /* RWTScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTScaryBugDoc.m; sourceTree = "<group>"; };
+		59F65C1B197FB3F500F4CC20 /* attribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = attribution.txt; path = ../../Desktop/ScaryBugs/attribution.txt; sourceTree = "<group>"; };
+		59F65C1C197FB3F500F4CC20 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = centipede.jpg; path = ../../Desktop/ScaryBugs/centipede.jpg; sourceTree = "<group>"; };
+		59F65C1D197FB3F500F4CC20 /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = centipedeThumb.jpg; path = ../../Desktop/ScaryBugs/centipedeThumb.jpg; sourceTree = "<group>"; };
+		59F65C1E197FB3F500F4CC20 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ladybug.jpg; path = ../../Desktop/ScaryBugs/ladybug.jpg; sourceTree = "<group>"; };
+		59F65C1F197FB3F500F4CC20 /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ladybugThumb.jpg; path = ../../Desktop/ScaryBugs/ladybugThumb.jpg; sourceTree = "<group>"; };
+		59F65C20197FB3F500F4CC20 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = potatoBug.jpg; path = ../../Desktop/ScaryBugs/potatoBug.jpg; sourceTree = "<group>"; };
+		59F65C21197FB3F500F4CC20 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = potatoBugThumb.jpg; path = ../../Desktop/ScaryBugs/potatoBugThumb.jpg; sourceTree = "<group>"; };
+		59F65C22197FB3F500F4CC20 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wolfSpider.jpg; path = ../../Desktop/ScaryBugs/wolfSpider.jpg; sourceTree = "<group>"; };
+		59F65C23197FB3F500F4CC20 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wolfSpiderThumb.jpg; path = ../../Desktop/ScaryBugs/wolfSpiderThumb.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +109,15 @@
 		59F65BCF197FACB800F4CC20 = {
 			isa = PBXGroup;
 			children = (
+				59F65C1B197FB3F500F4CC20 /* attribution.txt */,
+				59F65C1C197FB3F500F4CC20 /* centipede.jpg */,
+				59F65C1D197FB3F500F4CC20 /* centipedeThumb.jpg */,
+				59F65C1E197FB3F500F4CC20 /* ladybug.jpg */,
+				59F65C1F197FB3F500F4CC20 /* ladybugThumb.jpg */,
+				59F65C20197FB3F500F4CC20 /* potatoBug.jpg */,
+				59F65C21197FB3F500F4CC20 /* potatoBugThumb.jpg */,
+				59F65C22197FB3F500F4CC20 /* wolfSpider.jpg */,
+				59F65C23197FB3F500F4CC20 /* wolfSpiderThumb.jpg */,
 				59F65BE1197FACB800F4CC20 /* ScaryBugs */,
 				59F65C03197FACB800F4CC20 /* ScaryBugsTests */,
 				59F65BDA197FACB800F4CC20 /* Frameworks */,
@@ -261,8 +288,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				59F65BF7197FACB800F4CC20 /* Images.xcassets in Resources */,
+				59F65C2C197FB3F500F4CC20 /* wolfSpiderThumb.jpg in Resources */,
+				59F65C27197FB3F500F4CC20 /* ladybug.jpg in Resources */,
 				59F65BE6197FACB800F4CC20 /* InfoPlist.strings in Resources */,
+				59F65C25197FB3F500F4CC20 /* centipede.jpg in Resources */,
+				59F65C24197FB3F500F4CC20 /* attribution.txt in Resources */,
+				59F65C2B197FB3F500F4CC20 /* wolfSpider.jpg in Resources */,
+				59F65C26197FB3F500F4CC20 /* centipedeThumb.jpg in Resources */,
 				59F65BEF197FACB800F4CC20 /* Main.storyboard in Resources */,
+				59F65C28197FB3F500F4CC20 /* ladybugThumb.jpg in Resources */,
+				59F65C2A197FB3F500F4CC20 /* potatoBugThumb.jpg in Resources */,
+				59F65C29197FB3F500F4CC20 /* potatoBug.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
